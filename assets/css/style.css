@@ -8,7 +8,6 @@ header {
     text-align: center;
     height: 60px;
     width: 100%;
-    /* border-bottom: inset; */
     border-bottom: outset;
     border-bottom-color: lavender;
     margin: auto;
@@ -42,6 +41,13 @@ body {
     padding: 5px;
     margin-top: 15px;
 }
+a:link, a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #4aaaa5;
+}
 
 .contact {
     background-color: #ffffffff;
@@ -72,9 +78,6 @@ body {
     clear: both;
     width: 960px;
     margin: auto;
-    /* border-style: solid;
-    border-color: red;
-    border-width: thick; */
 }
 
 .text {
@@ -85,10 +88,6 @@ body {
     padding: 25px;
     margin-top: 5%;
     overflow: auto;
-    /* overflow: hidden; */
-    /* border-style: solid;
-    border-color: red;
-    border-width: thick; */
 }
 
 .subtitle {
@@ -124,8 +123,36 @@ footer {
     bottom: 0;
 }
 
+/* =============================================   Portfolio CSS   ============================================ */
+/* =============================================   Portfolio CSS   ============================================ */
+#portfoliofooter {
+    background-color: #666666;
+    border-top: solid;
+    border-top-color: #4aaaa5;
+    border-top-width: 10px;
+    width: 100%;
+    clear: both;
+    height: 125px;
+    margin-top: 142.5px;
+    position: relative;
+    bottom: 0;
+}
+
+#pictureframe {
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    /* line-height: 25px; */
+    height: 600px;
+    padding: 25px;
+    margin-top: 5%;
+    overflow: auto;
+}
+
 .portfolioimages{
-    display: inline;
+    /* display: inline; */
+    /* content: icon; */
+    margin-left: 240px;
+    
 }
 
 #image1 {
@@ -133,8 +160,9 @@ footer {
     width: 200px;
     height:150px;
     /* float: left; */
-    padding-right: 20px;
-    padding-bottom: 5px;
+    /* padding-right: 20px;
+    padding-bottom: 5px; */
+    padding: 10px;
 }
 
 #image2 {
@@ -142,8 +170,9 @@ footer {
     width: 200px;
     height:150px;
     /* float: left; */
-    padding-right: 20px;
-    padding-bottom: 5px;
+    /* padding-right: 20px;
+    padding-bottom: 5px; */
+    padding: 10px;
 }
 
 #image3 {
@@ -151,8 +180,9 @@ footer {
     width: 200px;
     height:150px;
     /* float: left; */
-    padding-right: 20px;
-    padding-bottom: 5px;
+    /* padding-right: 20px;
+    padding-bottom: 5px; */
+    padding: 10px;
 }
 
 #image4 {
@@ -160,8 +190,9 @@ footer {
     width: 200px;
     height:150px;
     /* float: left; */
-    padding-right: 20px;
-    padding-bottom: 5px;
+    /* padding-right: 20px;
+    padding-bottom: 5px; */
+    padding: 10px;
 }
 
 #image5 {
@@ -169,8 +200,9 @@ footer {
     width: 200px;
     height:150px;
     /* float: left; */
-    padding-right: 20px;
-    padding-bottom: 5px;
+    /* padding-right: 20px;
+    padding-bottom: 5px; */
+    padding: 10px;
 }
 
 #image6 {
@@ -178,8 +210,9 @@ footer {
     width: 200px;
     height:150px;
     /* float: left; */
-    padding-right: 20px;
-    padding-bottom: 5px;
+    /* padding-right: 20px;
+    padding-bottom: 5px; */
+    padding: 10px;
 }
 
 
