@@ -31,7 +31,7 @@ body {
     font-size: 18pt;
     width: 25%;
     padding-top: 17px;
-    padding-bottom: 19px;
+    padding-bottom: 18.5px;
     margin-bottom: -10%;
 }
 
@@ -43,6 +43,7 @@ body {
 }
 a:link, a:visited {
     text-decoration: none;
+    color: inherit;
 }
 
 a:hover {
@@ -98,7 +99,7 @@ a:hover {
     width: 100%;
     padding-bottom: 20px;
     margin-bottom: 20px;
-    clear: both;
+    /* clear: both; */
 }
 
 .image {
@@ -151,8 +152,13 @@ footer {
 .portfolioimages{
     /* display: inline; */
     /* content: icon; */
-    margin-left: 240px;
-    
+    /* width: 960px; */
+    /* margin-left: 260px; */
+    width: 450px;
+    margin-left: 140px;
+    margin-right: 120px;
+    padding-left: 79px;
+    padding-right: 69px;
 }
 
 #image1 {
@@ -166,6 +172,7 @@ footer {
 }
 
 #image2 {
+    
     /* clear: both; */
     width: 200px;
     height:150px;
@@ -216,3 +223,98 @@ footer {
 }
 
 
+
+
+
+
+/* =============================================   Contact CSS   ============================================ */
+/* =============================================   Contact CSS   ============================================ */
+
+#contactname {
+
+}
+
+#namefield {
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13pt;
+    border-width: thin;
+    border-color: silver;
+    border-style: solid;
+    padding-left: 10px; 
+    max-height: 25px;
+    resize: none;
+    /* overflow: hidden; */
+    overflow: auto;
+    width: 899px;
+}
+
+#email {
+
+}
+
+#emailfield {
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13pt;
+    border-width: thin;
+    border-color: silver;
+    border-style: solid;
+    padding-left: 10px;
+    width: 899px;
+    max-height: 25px;
+    resize: none;
+    overflow: auto;
+
+}
+
+#message {
+
+}
+
+#messagetext {
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13pt;
+    border-width: thin;
+    border-color: silver;
+    border-style: solid;
+    padding-left: 10px;
+    /* width: 899px; */
+    min-width: 899px;;
+    max-width: 899px;
+    /* height: 75px; */
+    min-height: 75px;
+    max-height: 200px;
+    /* vertical-align: text-top; */
+    overflow: auto;
+
+
+}
+
+#submit {
+    color: #4aaaa5;
+
+
+}
+
+button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    /* color: white; */
+    /* background-color: */
+    height: 25px;
+    width: 75px;
+    border-radius: 10%;
+
+}
+
+button:hover {
+    background-color: #4aaaa5;
+    color: white
+}
+
+/* button:selection {
+    transition-property: all;
+
+} */
