@@ -164,34 +164,37 @@ footer {
 }
 
 #image1 {
-    /* clear: both; */
+    clear: both;
     width: 200px;
     height:150px;
-    /* float: left; */
+    float: left;
     /* padding-right: 20px;
     padding-bottom: 5px; */
     padding: 10px;
+    /* z-index: 0; */
 }
 
 #image2 {
     
-    /* clear: both; */
+    clear: both;
     width: 200px;
     height:150px;
     /* float: left; */
     /* padding-right: 20px;
     padding-bottom: 5px; */
     padding: 10px;
+    /* z-index: 1; */
 }
 
 #image3 {
     /* clear: both; */
     width: 200px;
     height:150px;
-    /* float: left; */
+    float: left;
     /* padding-right: 20px;
     padding-bottom: 5px; */
     padding: 10px;
+    /* z-index: 0; */
 }
 
 #image4 {
@@ -202,16 +205,18 @@ footer {
     /* padding-right: 20px;
     padding-bottom: 5px; */
     padding: 10px;
+    /* z-index: 0; */
 }
 
 #image5 {
     /* clear: both; */
     width: 200px;
     height:150px;
-    /* float: left; */
+    float: left;
     /* padding-right: 20px;
     padding-bottom: 5px; */
     padding: 10px;
+    /* z-index: 0; */
 }
 
 #image6 {
@@ -222,8 +227,78 @@ footer {
     /* padding-right: 20px;
     padding-bottom: 5px; */
     padding: 10px;
+    /* z-index: 0; */
 }
 
+#imagetext1 {
+    background-color: #4aaaa5;
+    width: 200px;
+    height: 37.5px;
+    /* z-index: 1; */
+    margin-left: 10px;
+    margin-top: -55px;
+    float: left;
+    clear: both;
+
+}
+
+#imagetext2 {
+    background-color: #4aaaa5;
+    width: 200px;
+    height: 37.5px;
+    /* z-index: 3; */
+    position: relative;
+    margin-right: 20px;
+    margin-top: -55px;
+    float: right;
+    clear: both;
+}
+
+#imagetext3 {
+    background-color: #4aaaa5;
+    width: 200px;
+    height: 37.5px;
+    /* z-index: auto; */
+    margin-left: 10px;
+    margin-top: -55px;
+    float: left;
+    clear: both;
+}
+
+#imagetext4 {
+    background-color: #4aaaa5;
+    width: 200px;
+    height: 37.5px;
+    /* z-index: 1; */
+    position: relative;
+    margin-right: 20px;
+    margin-top: -55px;
+    float: right;
+    clear: both;
+}
+
+#imagetext5 {
+    background-color: #4aaaa5;
+    width: 200px;
+    height: 37.5px;
+    /* z-index: 1; */
+    margin-left: 10px;
+    margin-top: -55px;
+    float: left;
+    clear: both;
+}
+
+#imagetext6 {
+    background-color: #4aaaa5;
+    width: 200px;
+    height: 37.5px;
+    /* z-index: 1; */
+    position: relative;
+    margin-right: 20px;
+    margin-top: -57.5px;
+    float: right;
+    clear: both;
+}
 
 
 
