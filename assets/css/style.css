@@ -1,6 +1,6 @@
 
 html {
-    /* background-color: bisque; */
+    
 }
 
 header {
@@ -144,7 +144,6 @@ footer {
 #pictureframe {
     color: #777777;
     font-family: Arial, Helvetica, sans-serif;
-    /* line-height: 25px; */
     height: 600px;
     padding: 25px;
     margin-top: 5%;
@@ -152,10 +151,6 @@ footer {
 }
 
 .portfolioimages{
-    /* display: inline; */
-    /* content: icon; */
-    /* width: 960px; */
-    /* margin-left: 260px; */
     width: 450px;
     margin-left: 140px;
     margin-right: 120px;
@@ -168,140 +163,154 @@ footer {
     width: 200px;
     height:150px;
     float: left;
-    /* padding-right: 20px;
-    padding-bottom: 5px; */
     padding: 10px;
-    /* z-index: 0; */
 }
 
 #image2 {
-    
     clear: both;
     width: 200px;
     height:150px;
-    /* float: left; */
-    /* padding-right: 20px;
-    padding-bottom: 5px; */
     padding: 10px;
-    /* z-index: 1; */
 }
 
 #image3 {
-    /* clear: both; */
     width: 200px;
     height:150px;
     float: left;
-    /* padding-right: 20px;
-    padding-bottom: 5px; */
     padding: 10px;
-    /* z-index: 0; */
 }
 
 #image4 {
-    /* clear: both; */
     width: 200px;
     height:150px;
-    /* float: left; */
-    /* padding-right: 20px;
-    padding-bottom: 5px; */
     padding: 10px;
-    /* z-index: 0; */
 }
 
 #image5 {
-    /* clear: both; */
     width: 200px;
     height:150px;
     float: left;
-    /* padding-right: 20px;
-    padding-bottom: 5px; */
     padding: 10px;
-    /* z-index: 0; */
 }
 
 #image6 {
-    /* clear: both; */
     width: 200px;
     height:150px;
-    /* float: left; */
-    /* padding-right: 20px;
-    padding-bottom: 5px; */
     padding: 10px;
-    /* z-index: 0; */
 }
 
 #imagetext1 {
     background-color: #4aaaa5;
+    opacity: 0.90;
     width: 200px;
     height: 37.5px;
-    /* z-index: 1; */
     margin-left: 10px;
     margin-top: -55px;
     float: left;
     clear: both;
+}
 
+#text1 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 16pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 7px;
 }
 
 #imagetext2 {
     background-color: #4aaaa5;
+    opacity: 0.90;
     width: 200px;
     height: 37.5px;
-    /* z-index: 3; */
-    position: relative;
-    margin-right: 20px;
-    margin-top: -55px;
-    float: right;
-    clear: both;
-}
-
-#imagetext3 {
-    background-color: #4aaaa5;
-    width: 200px;
-    height: 37.5px;
-    /* z-index: auto; */
-    margin-left: 10px;
-    margin-top: -55px;
-    float: left;
-    clear: both;
-}
-
-#imagetext4 {
-    background-color: #4aaaa5;
-    width: 200px;
-    height: 37.5px;
-    /* z-index: 1; */
-    position: relative;
-    margin-right: 20px;
-    margin-top: -55px;
-    float: right;
-    clear: both;
-}
-
-#imagetext5 {
-    background-color: #4aaaa5;
-    width: 200px;
-    height: 37.5px;
-    /* z-index: 1; */
-    margin-left: 10px;
-    margin-top: -55px;
-    float: left;
-    clear: both;
-}
-
-#imagetext6 {
-    background-color: #4aaaa5;
-    width: 200px;
-    height: 37.5px;
-    /* z-index: 1; */
     position: relative;
     margin-right: 20px;
     margin-top: -57.5px;
     float: right;
     clear: both;
 }
+#text2 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 16pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 7px;
+}
 
+#imagetext3 {
+    background-color: #4aaaa5;
+    opacity: 0.90;
+    width: 200px;
+    height: 37.5px;
+    margin-left: 10px;
+    margin-top: -55px;
+    float: left;
+    clear: both;
+}
+#text3 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 16pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 7px;
+}
 
+#imagetext4 {
+    background-color: #4aaaa5;
+    opacity: 0.90;
+    width: 200px;
+    height: 37.5px;
+    position: relative;
+    margin-right: 20px;
+    margin-top: -57.5px;
+    float: right;
+    clear: both;
+}
+#text4 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 16pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 7px;
+}
 
+#imagetext5 {
+    background-color: #4aaaa5;
+    opacity: 0.90;
+    color: #ffffff;
+    width: 200px;
+    height: 37.5px;
+    margin-left: 10px;
+    margin-top: -55px;
+    float: left;
+    clear: both;
+}
+#text5 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 16pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 7px;
+}
+
+#imagetext6 {
+    background-color: #4aaaa5;
+    opacity: 0.90;
+    width: 200px;
+    height: 37.5px;
+    position: relative;
+    margin-right: 20px;
+    margin-top: -57.5px;
+    float: right;
+    clear: both;
+}
+#text6 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 16pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 7px;
+}
 
 
 /* =============================================   Contact CSS   ============================================ */
@@ -321,7 +330,6 @@ footer {
     padding-left: 10px; 
     max-height: 25px;
     resize: none;
-    /* overflow: hidden; */
     overflow: auto;
     width: 899px;
 }
@@ -357,13 +365,10 @@ footer {
     border-color: silver;
     border-style: solid;
     padding-left: 10px;
-    /* width: 899px; */
     min-width: 899px;;
     max-width: 899px;
-    /* height: 75px; */
     min-height: 75px;
     max-height: 200px;
-    /* vertical-align: text-top; */
     overflow: auto;
 
 
@@ -378,8 +383,6 @@ footer {
 button {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 10pt;
-    /* color: white; */
-    /* background-color: */
     height: 25px;
     width: 75px;
     border-radius: 10%;
@@ -391,7 +394,6 @@ button:hover {
     color: white
 }
 
-/* button:selection {
-    transition-property: all;
+button:selection {
 
-} */
+} 
